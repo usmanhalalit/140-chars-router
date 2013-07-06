@@ -1,6 +1,6 @@
-# PHP Router in 140 characters
+# PHP Router in 140 Characters
 
-This is a dimple(damn simple) URL routing script for PHP which is written in just 140 characters of code, so it fits itself within a tweet.
+This is a dimple(damn simple) URL routing script for PHP which is written in just 140 characters of code, so it fits within a tweet.
 
 Its NOT a good router at all, **don't use it on a real application**, its not exception handled either. I did it just for fun and to demonstrate the simplicity
 
@@ -60,7 +60,7 @@ class Foo{
 }
 ```
 
-Now visit the your server root `http://localhost/index.php`, `http://localhost/index.php/a`, `http://localhost/index.php/b`, `http://localhost/index.php/c` and `http://localhost/index.php/c/d`.
+Now visit your server root `http://localhost/index.php`, `http://localhost/index.php/a`, `http://localhost/index.php/b`, `http://localhost/index.php/c` and `http://localhost/index.php/c/d`.
 
 Or you may run built-in PHP server from the command line (in the same dir)
 ```
