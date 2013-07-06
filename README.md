@@ -2,7 +2,7 @@
 
 This is a URL routing script for PHP which is written in just 140 characters of code, so it fits itself within a tweet.
 
-Its NOT a good router at all, **don't use it on a real application**, its not exception handled either. I did it just for fun and to demostrate the simplicity
+Its NOT a good router at all, **don't use it on a real application**, its not exception handled either. I did it just for fun and to demonstrate the simplicity
 
 So here's the router code, and that's all (seriously).
 ```PHP
@@ -41,9 +41,9 @@ $router->a('/', function(){
 });
 
 // Add route with class method
-$router->a('/c', array(new Foo, 'bar'));
+$router->a('/c', [new Foo, 'bar']);
 // Add multiple slashed route with class method
-$router->a('/c/d', array(new Foo, 'bar'));
+$router->a('/c/d', [new Foo, 'bar']);
 
 // Execute the route
 $router->e();
