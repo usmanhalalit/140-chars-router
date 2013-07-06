@@ -1,6 +1,6 @@
 # PHP Router in 140 characters
 
-This is a URL routing script for PHP which is written in just 140 characters of code, so it fits itself within a tweet.
+This is a dimple(damn simple) URL routing script for PHP which is written in just 140 characters of code, so it fits itself within a tweet.
 
 Its NOT a good router at all, **don't use it on a real application**, its not exception handled either. I did it just for fun and to demonstrate the simplicity
 
